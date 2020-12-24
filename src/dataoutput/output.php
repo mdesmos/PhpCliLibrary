@@ -73,7 +73,7 @@ class Output
         foreach ($commands as $command => $commandsData) {
             if($command_name && $command_name !== $command) continue;
 
-            $output .= 'Command name:'."\n\t\t".'- '.$command."\n\t";
+            $output = 'Command name:'."\n\t\t".'- '.$command."\n\t";
             $output .= 'Command description:'."\n\t\t".'- '.$commandsData->description."\n\t";
 
             $output .= 'Command arguments: '."\n\t\t";
