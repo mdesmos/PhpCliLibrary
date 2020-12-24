@@ -1,0 +1,13 @@
+{
+  "name": "desmos/phpclilibrary",
+  "description" : "description",
+  "authors": [
+    {
+      "name": "Maxim Gandin",
+      "email": "mdesmos@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {"PhpCliLibrary\\": "src/"}
+  }
+}

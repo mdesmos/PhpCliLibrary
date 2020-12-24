@@ -1,0 +1,55 @@
+{
+  "command_name": {
+    "description":"Return review of arguments and paramenters of command. Call arguments like {arg1} or {arg1, arg2}",
+    "arguments": {
+      "arg1": {"description": "Arg1 describe/do something"},
+      "arg2": {"description": "Arg2 describe/do something"},
+      "log": {"description": "Write data in log"},
+      "verbose" : {"description": "To verbose something"},
+      "overwrite": {"description": "To overwrite something"},
+      "unlimited": {"description": "Unlimited output"}
+    },
+    "parameters": {
+      "methods": {
+        "description": "Write one or few methods: create, update, delete. Example, [method=create] or [method={create, update}]",
+        "value": ["create", "update", "delete"]
+      },
+
+      "log_file": {
+        "description": "Write path to log_file, example: [log_file=app.log]"
+      },
+
+      "paginate": {
+        "description": "Write integer number, elements on page",
+        "default_value": 10
+      }
+    }
+  },
+
+  "command_name_second": {
+    "description":"Return review of arguments and paramenters of command. Call arguments like {arg1} or {arg1, arg2}",
+    "arguments": {
+      "arg1": {"description": "Arg1 describe/do something"},
+      "arg2": {"description": "Arg2 describe/do something"},
+      "log": {"description": "Write data in log"},
+      "verbose" : {"description": "To verbose something"},
+      "overwrite": {"description": "To overwrite something"},
+      "unlimited": {"description": "Unlimited output"}
+    },
+    "parameters": {
+      "methods": {
+        "description": "Write one or few methods: create, update, delete. Example, [method=create] or [method={create, update}]",
+        "value": ["create", "update", "delete"]
+      },
+
+      "log_file": {
+        "description": "Write path to log_file, example: [log_file=app.log]"
+      },
+
+      "paginate": {
+        "description": "Write integer number, elements on page",
+        "default_value": 10
+      }
+    }
+  }
+}
